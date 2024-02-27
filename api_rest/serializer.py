@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from .models import Comida
-from .models import Bebida
+from .models import Comida,Bebida
+
 
 class ComidaSerializer(serializers.ModelSerializer):
     class Meta:
